@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>It's all yours</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body style="background-color: rgba(242, 242, 242, 0.888);">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="C:\Users\munna\Desktop\VS code - pro\home page\images\Shop.png", width="125px">
+        </div>
+        <nav>
+            <div class="align">
+              <form id="form", role="search">
+                <input type="search" id="query" name="p" placeholder="Search here"> 
+                <button type="submit"><i class="fa fa-search"></i></button> 
+              </form>
+            </div>
+          <ul>
+            <li><a href = "index.html"><h3>Home</h3></a></li>
+            <li><a href = ""><h3>Deal of the day</h3></a></li>
+            <li><a href = ""><h3>Customer care support</h3></a></li>
+            <li><a href = ""><h3>Login</h3></a></li>
+            <li><a href = "shopcart.html"><h3>Cart</h3></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    
+    <div class="small-container product-hoodie">
+      <div class="row">
+          <div class="col-2">
+              <img src="C:\Users\munna\Desktop\VS code - pro\home page\images\shoes\roadster3-4.jpg", width="100%", id="hoodiePic">
+              <div class="small-hood-row">
+                <div class="small-hood-col">
+                  <img src="C:\Users\munna\Desktop\VS code - pro\home page\images\shoes\roadster3-4.jpg", width="75%", class="hood">
+                </div>
+                <div class="small-hood-col">
+                  <img src="C:\Users\munna\Desktop\VS code - pro\home page\images\shoes\roadster3-5.jpg", width="100%", class="hood">
+                </div>
+                <div class="small-hood-col">
+                  <img src="C:\Users\munna\Desktop\VS code - pro\home page\images\shoes\roadster3-1.jpg", width="100%", class="hood">
+                </div>
+                <div class="small-hood-col">
+                  <img src="C:\Users\munna\Desktop\VS code - pro\home page\images\shoes\roadster3-2.jpg", width="100%", class="hood">
+                </div>
+                <div class="small-hood-col">
+                  <img src="C:\Users\munna\Desktop\VS code - pro\home page\images\shoes\roadster3-3.jpg", width="100%", class="hood">
+                </div>
+              </div>
+          </div>
+
+          <div class="col-2">
+            <p>Branded Shoes for men and women / Roadster Men Brown Textured PU Sneakers</p>
+            <h1>Roadster Men Brown Textured PU Sneakers</h1>
+            <h2>Color - Brown</h2>
+            <h4>₹1999</h4>
+            <br>
+            <select>
+                <option>Select size</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <input type="number" value="1">
+            <a href="shopcart.html" class="btn">Add to Cart &#8594;</a>
+            
+            <h3>Product Details</h3>
+            <br>
+            <p>
+                <li>Care Instructions: Machine Wash</li>
+                <li>Fit Type: Regular</li>
+                <li>Color Name: Multicoloured</li>
+                <li>Material: Crepe with three quarter sleeve</li>
+                <li>A-line</li>
+                <li>Knee length</li>
+                <li>Machine wash</li>
+                <li>Casual wear</li>
+                <li>Number of items: 1</li>
+                <li>There might be minor color variation in terms of print ,between actual product and image shown on screen due to lighting on the photography</li>
+            </p>
+          </div>
+        </div>
+      </div>    
+    
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <img src="C:\Users\munna\Desktop\VS code - pro\home page\images\Shop.png">
+              <p>Our purpose is to make people to explore the products in the world and buy whatever they want at their doorstep</p>
+            </div>
+            <div class="footer-col-1">
+              <h3>Useful links</h3>
+              <ul>
+                <li>Customer care</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Careers</li>
+              </ul>
+            </div>
+            <div class="footer-col-2">
+              <h3>Follow Us</h3>
+              <ul>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Meta</li>
+                <li>Youtube</li>
+              </ul>
+            </div>
+            <div class="footer-col-3">
+              <h3>Get to know Us</h3>
+              <ul>
+                <li>About Us</li>
+                <li>News and Articles</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p class="CopyRights">Privacy Notice</p>
+          <p class="CopyRights">It's all yours, Inc or it's affiliates</p>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+        
+      var hp = document.getElementById("hoodiePic");
+      var hs = document.getElementsByClassName("hood");
+      hs[0].onclick=function(){
+        hp.src = hs[0].src;
+      }
+      hs[1].onclick=function(){
+        hp.src = hs[1].src;
+      }
+      hs[2].onclick=function(){
+        hp.src = hs[2].src;
+      }
+      hs[3].onclick=function(){
+        hp.src = hs[3].src;
+      }
+      hs[4].onclick=function(){
+        hp.src = hs[4].src;
+      }
+
+    </script>
+
+  </body>
+</html>
